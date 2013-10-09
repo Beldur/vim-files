@@ -4,12 +4,15 @@ set nocompatible
 execute pathogen#infect()
 call pathogen#helptags()
 
-syntax on
 filetype plugin indent on
 
-set bg=dark
+syntax enable
 
-colorscheme mustang
+" Set colors
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
+
 highlight clear SignColumn
 
 set t_Co=256
