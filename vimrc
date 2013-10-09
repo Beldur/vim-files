@@ -10,8 +10,9 @@ syntax enable
 
 " Set colors
 let g:solarized_termcolors=256
+let g:solarized_termtrans=0
 set background=dark
-colorscheme solarized
+colorscheme mustang
 
 highlight clear SignColumn
 
