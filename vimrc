@@ -146,3 +146,13 @@ autocmd FileType unite call s:unite_my_settings()
 function! s:unite_my_settings()"{{{
     nmap <buffer> <ESC>      <Plug>(unite_exit)
 endfunction"}}}
+
+" Fugitive Settings
+nnoremap <silent> <leader>gs :Gstatus<CR>
+nnoremap <silent> <leader>gd :Gdiff<CR>
+nnoremap <silent> <leader>gc :Gcommit<CR>
+nnoremap <silent> <leader>gb :Gblame<CR>
+nnoremap <silent> <leader>gl :Glog<CR>
+nnoremap <silent> <leader>gp :Git push<CR>
+nnoremap <silent> <leader>gw :Gwrite<CR>
+nnoremap <silent> <leader>gr :Gremove<CR>

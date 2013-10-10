@@ -19,3 +19,6 @@
 [submodule "bundle/vim-startify"]
 	path = bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify
+[submodule "bundle/golden-ratio"]
+	path = bundle/golden-ratio
+	url = git://github.com/roman/golden-ratio.git
