@@ -55,7 +55,8 @@ set directory=~/.vim/.cache/swap/   " swap files
 " Statusline
 set laststatus=2 " Always show the status line
 set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l%h " Format the status line
-set statusline+=%=%{fugitive#statusline()}
+set statusline+=%=%{SyntasticStatuslineFlag()}
+set statusline+=\ \ \ %{fugitive#statusline()}
 
 " Make those folders automatically if they don't already exist.
 if !isdirectory(expand(&undodir))
