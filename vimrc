@@ -48,9 +48,9 @@ set showcmd
 set backup                        " enable backups
 set noswapfile                    " It's 2012, Vim.
 
-set undodir=~/.vim/tmp/undo//     " undo files
-set backupdir=~/.vim/tmp/backup// " backups
-set directory=~/.vim/tmp/swap//   " swap files
+set undodir=~/.vim/.cache/undo/     " undo files
+set backupdir=~/.vim/.cache/backup/ " backups
+set directory=~/.vim/.cache/swap/   " swap files
 
 " Statusline
 set laststatus=2 " Always show the status line
