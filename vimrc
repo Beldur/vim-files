@@ -54,9 +54,9 @@ set directory=~/.vim/.cache/swap/   " swap files
 
 " Statusline
 set laststatus=2 " Always show the status line
-set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l%h " Format the status line
-set statusline+=%=%{SyntasticStatuslineFlag()}
-set statusline+=\ \ \ %{fugitive#statusline()}
+" set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l%h " Format the status line
+" set statusline+=%=%{SyntasticStatuslineFlag()}
+" set statusline+=\ \ \ %{fugitive#statusline()}
 
 " Make those folders automatically if they don't already exist.
 if !isdirectory(expand(&undodir))
@@ -107,6 +107,9 @@ inoremap kj <esc>
 " change cursor position in insert mode
 inoremap <C-h> <left>
 inoremap <C-l> <right>
+
+" Vim Airline Settings
+let g:airline#extensions#tabline#enabled = 1
 
 " Syntastic Settings
 let g:syntastic_auto_jump = 1

@@ -22,3 +22,6 @@
 [submodule "bundle/golden-ratio"]
 	path = bundle/golden-ratio
 	url = git://github.com/roman/golden-ratio.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
