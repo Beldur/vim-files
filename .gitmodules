@@ -25,3 +25,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "bundle/neomru"]
+    path = bundle/neomru
+    url = https://github.com/Shougo/neomru.vim.git
