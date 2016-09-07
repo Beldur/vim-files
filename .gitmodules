@@ -28,6 +28,6 @@
 [submodule "bundle/neomru"]
 	path = bundle/neomru
 	url = https://github.com/Shougo/neomru.vim.git
-[submodule "/home/alu/.vim/bundle/vim-go"]
-	path = /home/alu/.vim/bundle/vim-go
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
